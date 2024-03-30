@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hotpink;
+}
+main{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.container{
+    width: 370px;
+    background-color: white;
+    font-family: "Belleza", sans-serif;
+    padding: 30px;
+    border-radius: 10px;
+}
+.functions{
+    display: grid;
+    grid-template-columns: 120px 176px;
+    gap: 10px;
+    
+}
+.functions input{
+    padding: 7px 2px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    outline: none;
+}
+.functions button{
+    background-color: hotpink;
+    border: 1px solid hotpink;
+    font-family: "Belleza", sans-serif;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: color 500ms, background-color 500ms;
+}
+.functions button:hover{
+    color: hotpink;
+    background-color: white;
+}
+.functions .fact-button{
+    padding: 7px 0;
+}
+.functions .random{
+    grid-column: span 2 ;
+    padding: 7px 0;
+}
+.number-card{
+    margin: 20px 0;
+    padding: 10%;
+    border-bottom: 10px solid hotpink;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.336);
+}
+.number-card p{
+    margin: 10px 0;
+}
